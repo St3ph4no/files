@@ -6,7 +6,7 @@
       {"id": "C-Satz Ergebnisfelder", "group": 3},
       {"id": "D-Satz Ergebnisfelder", "group": 4},
       {"id": "E-Satz Ergebnisfelder", "group": 5},
-      {"id": "Q_A-Satz", "group": 1},
+      {"id": "Q_A-Satz", "group": 1}
     ],
     "links": [
       {"source": "A-Satz Ergebnisfelder", "target": "Zusammenführung Einzelsätze", "value": 1},
@@ -14,6 +14,6 @@
       {"source": "C-Satz Ergebnisfelder", "target": "Zusammenführung Einzelsätze", "value": 1},
       {"source": "D-Satz Ergebnisfelder", "target": "Zusammenführung Einzelsätze", "value": 1},
       {"source": "E-Satz Ergebnisfelder", "target": "Zusammenführung Einzelsätze", "value": 1},
-      {"source": "Q_A-Satz", "target": "A-Satz Ergebnisfelder", "value": 1},
+      {"source": "Q_A-Satz", "target": "A-Satz Ergebnisfelder", "value": 1}
     ]
  }
