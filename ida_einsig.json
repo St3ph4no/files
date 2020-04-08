@@ -2,19 +2,19 @@
  "nodes": [
   {
    "id": "Zusammenführung Einzelsätze",
-   "groupe": 1
+   "groupe": 9
   },
   {
    "id": "A-Satz Ergebnisfelder",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "B-Satz Ergebnisfelder",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "C-Satz Ergebnisfelder",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "D-Satz Ergebnisfelder",
@@ -22,51 +22,51 @@
   },
   {
    "id": "E-Satz Ergebnisfelder",
-   "groupe": 1
+   "groupe": 5
   },
   {
    "id": "Q_A-Satz",
-   "groupe": 1
+   "groupe": 3
   },
   {
    "id": "Q_B-Satz vorläufig",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "Q_B-Satz vorläufig",
-   "groupe": 1
+   "groupe": 9
   },
   {
    "id": "Q_B-Satz vorläufig",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "Q_B-Satz vorläufig",
-   "groupe": 1
+   "groupe": 8
   },
   {
    "id": "Q_B-Satz BAP",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "Q_B-Satz BAP",
-   "groupe": 1
+   "groupe": 2
   },
   {
    "id": "BuBa-WZ-Code",
-   "groupe": 1
+   "groupe": 2
   },
   {
    "id": "B-Satz Vorarbeit",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "B-Satz Basis",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "B-Satz Basis",
-   "groupe": 1
+   "groupe": 2
   },
   {
    "id": "B-Satz Basis Akt",
@@ -74,15 +74,15 @@
   },
   {
    "id": "B-Satz Basis Akt",
-   "groupe": 1
+   "groupe": 2
   },
   {
    "id": "B-Satz Basis Hist",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "B-Satz Basis Hist",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "Q_B-Satz interne Konten",
@@ -94,39 +94,39 @@
   },
   {
    "id": "Q_C-Satz für M-Satz",
-   "groupe": 1
+   "groupe": 5
   },
   {
    "id": "Q_C-Satz für D-Satz",
-   "groupe": 1
+   "groupe": 3
   },
   {
    "id": "Q_B-Satz",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "Q_C-Satz",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "Q_B-C-Satz",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "C-Sätze relevant",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "C-Sätze relevant",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "C-Sätze gesamt",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "C-Sätze gesamt",
-   "groupe": 1
+   "groupe": 8
   },
   {
    "id": "C-Sätze gesamt",
@@ -138,59 +138,59 @@
   },
   {
    "id": "Q_C-Satz interne Konten",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "Q_B-C-Satz interne Konten",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "Q_B-C-Satz interne Konten",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "Q_B-C-Satz interne Konten",
-   "groupe": 1
+   "groupe": 2
   },
   {
    "id": "Q_B-C-Satz interne Konten",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "Q_B-C-Satz Sachkonten Akt",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "Q_B-C-Satz Sachkonten Akt",
-   "groupe": 1
+   "groupe": 3
   },
   {
    "id": "Q_B-C-Satz Sachkonten Hist",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "Q_B-C-Satz Sachkonten Hist",
-   "groupe": 1
+   "groupe": 6
   },
   {
    "id": "Q_C-Satz bankindividuell",
-   "groupe": 1
+   "groupe": 3
   },
   {
    "id": "Q_C-Satz BAP PM verteilt",
-   "groupe": 1
+   "groupe": 4
   },
   {
    "id": "Q_C-Satz BAP PM verteilt Vorarbeit",
-   "groupe": 1
+   "groupe": 5
   },
   {
    "id": "Q_C-Satz BAP PM verteilt Vorarbeit",
-   "groupe": 1
+   "groupe": 0
   },
   {
    "id": "C9-11-17-18 Differenzermittlung PM",
-   "groupe": 1
+   "groupe": 7
   },
   {
    "id": "C9-11-17-18 Differenzermittlung PM Vorarbeit",
@@ -198,7 +198,7 @@
   },
   {
    "id": "Q_C-Satz BAP PM verteilt Vorvorarbeit",
-   "groupe": 1
+   "groupe": 3
   }
  ],
  "links": [
