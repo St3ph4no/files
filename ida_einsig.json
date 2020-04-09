@@ -25,6 +25,10 @@
       "groupe":5
     },
     {
+      "id":"Paramwerte_allgemein",
+      "groupe":0
+    },
+    {
       "id":"Q_A-Satz",
       "groupe":1
     },
