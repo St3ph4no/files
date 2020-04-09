@@ -9,7 +9,19 @@
       "groupe":1
     },
     {
+      "id":"A-Satz Ergebnisfelder",
+      "groupe":1
+    },
+    {
+      "id":"Q_A-Satz",
+      "groupe":1
+    },
+    {
       "id":"B-Satz Ergebnisfelder",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz",
       "groupe":2
     },
     {
@@ -17,7 +29,15 @@
       "groupe":3
     },
     {
+      "id":"Q_C-Satz",
+      "groupe":3
+    },
+    {
       "id":"D-Satz Ergebnisfelder",
+      "groupe":4
+    },
+    {
+      "id":"Q_D-Satz",
       "groupe":4
     },
     {
@@ -25,23 +45,23 @@
       "groupe":5
     },
     {
-      "id":"Paramwerte_allgemein",
-      "groupe":0
+      "id":"Q_E-Satz",
+      "groupe":5
     },
     {
       "id":"Q_A-Satz",
       "groupe":1
     },
     {
-      "id":"Q_B-Satz vorläufig",
-      "groupe":2
+      "id":"Paramwerte_allgemein",
+      "groupe":0
     },
     {
       "id":"Q_B-Satz vorläufig",
       "groupe":2
     },
     {
-      "id":"Q_B-Satz vorläufig",
+      "id":"Q_B-Satz Struktursatz",
       "groupe":2
     },
     {
@@ -50,6 +70,30 @@
     },
     {
       "id":"Q_B-Satz BAP",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz vorläufig",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz vorläufig",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz bankindividuell",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz BAP",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Vorarbeit",
       "groupe":2
     },
     {
@@ -58,6 +102,14 @@
     },
     {
       "id":"BuBa-WZ-Code",
+      "groupe":0
+    },
+    {
+      "id":"BuBa-WZ-Code",
+      "groupe":0
+    },
+    {
+      "id":"BuBa-WZ-Code_Vorarbeit",
       "groupe":0
     },
     {
@@ -77,11 +129,27 @@
       "groupe":2
     },
     {
+      "id":"B-Satz Basis",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Basis Hist",
+      "groupe":2
+    },
+    {
       "id":"B-Satz Basis Akt",
       "groupe":2
     },
     {
-      "id":"B-Satz Basis Hist",
+      "id":"B-Satz Kunde Akt",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Basis Akt",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Adressen Akt",
       "groupe":2
     },
     {
@@ -89,11 +157,31 @@
       "groupe":2
     },
     {
-      "id":"Q_B-Satz interne Konten",
+      "id":"B-Satz Kunde Hist",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Basis Hist",
+      "groupe":2
+    },
+    {
+      "id":"B-Satz Adressen Hist",
       "groupe":2
     },
     {
       "id":"Q_B-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-C-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz BAP",
       "groupe":2
     },
     {
@@ -101,24 +189,32 @@
       "groupe":3
     },
     {
+      "id":"Q_B-C-Satz",
+      "groupe":2
+    },
+    {
       "id":"Q_C-Satz für D-Satz",
       "groupe":3
+    },
+    {
+      "id":"Q_B-C-Satz",
+      "groupe":2
     },
     {
       "id":"Q_B-Satz",
       "groupe":2
     },
     {
+      "id":"Q_B-C-Satz",
+      "groupe":2
+    },
+    {
       "id":"Q_C-Satz",
       "groupe":3
     },
-     {
-      "id":"Q_D-Satz",
-      "groupe":4
-    },
     {
-      "id":"Q_E-Satz",
-      "groupe":5
+      "id":"Q_B-C-Satz",
+      "groupe":2
     },
     {
       "id":"Q_B-C-Satz",
@@ -137,7 +233,19 @@
       "groupe":3
     },
     {
+      "id":"C-Sätze relevant",
+      "groupe":3
+    },
+    {
+      "id":"Q_B-Satz vorläufig",
+      "groupe":2
+    },
+    {
       "id":"C-Sätze gesamt",
+      "groupe":3
+    },
+    {
+      "id":"Q_C-Satz Struktursatz",
       "groupe":3
     },
     {
@@ -145,7 +253,23 @@
       "groupe":3
     },
     {
+      "id":"Q_C-Satz BAP PM verteilt",
+      "groupe":3
+    },
+    {
       "id":"C-Sätze gesamt",
+      "groupe":3
+    },
+    {
+      "id":"Q_C-Satz interne Konten",
+      "groupe":3
+    },
+    {
+      "id":"C-Sätze gesamt",
+      "groupe":3
+    },
+    {
+      "id":"Q_C-Satz bankindividuell",
       "groupe":3
     },
     {
@@ -161,7 +285,15 @@
       "groupe":2
     },
     {
+      "id":"Q_B-C-Satz Personensachkonten Akt",
+      "groupe":2
+    },
+    {
       "id":"Q_B-C-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-C-Satz Personensachkonten Hist",
       "groupe":2
     },
     {
@@ -173,19 +305,51 @@
       "groupe":2
     },
     {
+      "id":"Q_B-C-Satz interne Konten",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-C-Satz Sachkonten Hist",
+      "groupe":2
+    },
+    {
       "id":"Q_B-C-Satz Sachkonten Akt",
       "groupe":2
     },
     {
+      "id":"Q_B-Satz Sachkonten Akt",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-C-Satz Sachkonten Akt",
+      "groupe":2
+    },
+    {
+      "id":"Q_C-Satz Sachkonten Akt",
+      "groupe":3
+    },
+    {
       "id":"Q_B-C-Satz Sachkonten Hist",
+      "groupe":2
+    },
+    {
+      "id":"Q_B-Satz Sachkonten Hist",
       "groupe":2
     },
     {
       "id":"Q_B-C-Satz Sachkonten Hist",
       "groupe":2
+    },
+    {
+      "id":"Q_C-Satz Sachkonten Hist",
+      "groupe":3
     },
     {
       "id":"Q_C-Satz bankindividuell",
+      "groupe":3
+    },
+    {
+      "id":"Q_C-Satz bankindividuell Vorarbeit",
       "groupe":3
     },
     {
@@ -201,7 +365,23 @@
       "groupe":3
     },
     {
+      "id":"Q_C-Satz BAP PM verteilt Vorvorarbeit",
+      "groupe":3
+    },
+    {
+      "id":"Q_C-Satz BAP PM verteilt Vorarbeit",
+      "groupe":3
+    },
+    {
       "id":"C9-11-17-18 Differenzermittlung PM",
+      "groupe":3
+    },
+    {
+      "id":"C9-11-17-18 Differenzermittlung PM",
+      "groupe":3
+    },
+    {
+      "id":"C9-11-17-18 Differenzermittlung PM Vorarbeit",
       "groupe":3
     },
     {
@@ -211,31 +391,19 @@
     {
       "id":"Q_C-Satz BAP PM verteilt Vorvorarbeit",
       "groupe":3
+    },
+    {
+      "id":"Q_C-Satz BAP PM verteilt Vorvorarbeit",
+      "groupe":3
+    },
+    {
+      "id":"C-Satz5",
+      "groupe":3
     }
   ],
   "links":[
     {
       "source":"A-Satz Ergebnisfelder",
-      "target":"Zusammenführung Einzelsätze",
-      "value":1
-    },
-    {
-      "source":"B-Satz Ergebnisfelder",
-      "target":"Zusammenführung Einzelsätze",
-      "value":1
-    },
-    {
-      "source":"C-Satz Ergebnisfelder",
-      "target":"Zusammenführung Einzelsätze",
-      "value":1
-    },
-    {
-      "source":"D-Satz Ergebnisfelder",
-      "target":"Zusammenführung Einzelsätze",
-      "value":1
-    },
-    {
-      "source":"E-Satz Ergebnisfelder",
       "target":"Zusammenführung Einzelsätze",
       "value":1
     },
