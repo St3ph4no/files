@@ -408,6 +408,26 @@
       "value":1
     },
     {
+      "source":"B-Satz Ergebnisfelder",
+      "target":"Zusammenführung Einzelsätze",
+      "value":1
+    },
+    {
+      "source":"C-Satz Ergebnisfelder",
+      "target":"Zusammenführung Einzelsätze",
+      "value":1
+    },
+    {
+      "source":"D-Satz Ergebnisfelder",
+      "target":"Zusammenführung Einzelsätze",
+      "value":1
+    },
+    {
+      "source":"E-Satz Ergebnisfelder",
+      "target":"Zusammenführung Einzelsätze",
+      "value":1
+    },
+    {
       "source":"Q_A-Satz",
       "target":"A-Satz Ergebnisfelder",
       "value":1
