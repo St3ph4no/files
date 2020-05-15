@@ -1,0 +1,1294 @@
+[
+  [
+    {
+      "id":"ED"
+    }
+  ],
+  [
+    {
+      "id":"Struktutsatz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    },
+    {
+      "id":"A-Satz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    },
+    {
+      "id":"B-Satz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    },
+    {
+      "id":"C-Satz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    },
+    {
+      "id":"D-Satz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    },
+    {
+      "id":"E-Satz Ergebnisfelder",
+      "parents":[
+        "ED"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_A-Satz",
+      "parents":[
+        "A-Satz Ergebnisfelder"
+      ]
+    },
+    {
+      "id":"Q_B-Satz",
+      "parents":[
+        "B-Satz Ergebnisfelder"
+      ]
+    },
+    {
+      "id":"Q_C-Satz",
+      "parents":[
+        "C-Satz Ergebnisfelder"
+      ]
+    },
+    {
+      "id":"Q_D-Satz",
+      "parents":[
+        "D-Satz Ergebnisfelder"
+      ]
+    },
+    {
+      "id":"Q_E-Satz",
+      "parents":[
+        "E-Satz Ergebnisfelder"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Paramwerte_allgemein",
+      "parents":[
+        "Q_A-Satz"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz",
+      "parents":[
+        "Q_B-Satz",
+        "Q_C-Satz"
+      ]
+    },
+    {
+      "id":"Q_E-Satz Vorarbeit",
+      "parents":[
+        "Q_E-Satz"
+      ]
+    }
+  ],
+  [
+    {
+      "id":[
+        "Q_C-Satz für D-Satz"
+      ],
+      "parents":[
+        "Q_B-C-Satz"
+      ]
+    },
+    {
+      "id":"Q_C-Satz für M-Satz",
+      "parents":[
+        "Q_B-C-Satz"
+      ]
+    },
+    {
+      "id":"Q_D-Satz Vorarbeit",
+      "parents":[
+        "Q_E-Satz Vorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"D-Satz D12B-D12CHilfs",
+      "parents":[
+        "Q_D-Satz Vorarbeit"
+      ]
+    },
+    {
+      "id":"C-Sätze relevant",
+      "parents":[
+        "Q_B-C-Satz"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_B-Satz vorläufig",
+      "parents":[
+        "C-Sätze relevant"
+      ]
+    },
+    {
+      "id":"D-Satz D12BHilfs",
+      "parents":[
+        "D-Satz D12B-D12CHilfs"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_B-Satz Struktursatz",
+      "parents":[
+        "Q_B-Satz vorläufig"
+      ]
+    },
+    {
+      "id":"Q_B-Satz interne Konten",
+      "parents":[
+        "Q_B-Satz vorläufig"
+      ]
+    },
+    {
+      "id":"Q_B-Satz bankindividuell",
+      "parents":[
+        "Q_B-Satz vorläufig"
+      ]
+    },
+    {
+      "id":"D-Satz D12A-HW1-D12CHilfsfeld",
+      "parents":[
+        "D-Satz D12BHilfs"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_B-Satz BAP",
+      "parents":[
+        "Q_B-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"C-Sätze gesamt",
+      "parents":[
+        "C-Sätze relevant"
+      ]
+    },
+    {
+      "id":"D-Satz HW1-D12-Hilfsfelder",
+      "parents":[
+        "D-Satz D12A-HW1-D12CHilfsfeld"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"B-Satz Vorarbeit",
+      "parents":[
+        "Q_B-Satz BAP"
+      ]
+    },
+    {
+      "id":"BuBa-WZ-Code",
+      "parents":[
+        "Q_B-Satz BAP"
+      ]
+    },
+    {
+      "id":"Q_C-Satz Struktursatz",
+      "parents":[
+        "C-Sätze gesamt"
+      ]
+    },
+    {
+      "id":"Q_C-Satz BAP PM verteilt",
+      "parents":[
+        "C-Sätze gesamt"
+      ]
+    },
+    {
+      "id":"Q_C-Satz interne Konten",
+      "parents":[
+        "C-Sätze gesamt"
+      ]
+    },
+    {
+      "id":"Q_C-Satz bankindividuell",
+      "parents":[
+        "C-Sätze gesamt"
+      ]
+    },
+    {
+      "id":"D-Satz D5_6_7_9",
+      "parents":[
+        "D-Satz HW1-D12-Hilfsfelder"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_B-C-Satz interne Konten",
+      "parents":[
+        "Q_B-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz interne Konten",
+      "parents":[
+        "Q_C-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"Q_C-Satz bankindividuell Vorarbeit",
+      "parents":[
+        "Q_C-Satz bankindividuell"
+      ]
+    },
+    {
+      "id":"Q_C-Satz BAP PM verteilt Vorarbeit",
+      "parents":[
+        "Q_C-Satz BAP PM verteilt"
+      ]
+    },
+    {
+      "id":"Q_C-Satz für D-Struktursatz",
+      "parents":[
+        "D-Satz D5_6_7_9"
+      ]
+    },
+    {
+      "id":"Q_C-Satz für D-Satz",
+      "parents":[
+        "D-Satz D5_6_7_9"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"BuBa-WZ-Code_Vorarbeit",
+      "parents":[
+        "BuBa-WZ-Code"
+      ]
+    },
+    {
+      "id":"B-Satz Basis",
+      "parents":[
+        "B-Satz Vorarbeit"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz Personensachkonten Akt",
+      "parents":[
+        "Q_B-C-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz Personensachkonten Hist",
+      "parents":[
+        "Q_B-C-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz Sachkonten Akt",
+      "parents":[
+        "Q_B-C-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"Q_B-C-Satz Sachkonten Hist",
+      "parents":[
+        "Q_B-C-Satz interne Konten"
+      ]
+    },
+    {
+      "id":"C9-11-17-18 Differenzermittlung PM",
+      "parents":[
+        "Q_C-Satz BAP PM verteilt Vorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"B-Satz Basis Akt",
+      "parents":[
+        "B-Satz Basis"
+      ]
+    },
+    {
+      "id":"B-Satz Basis Hist",
+      "parents":[
+        "B-Satz Basis"
+      ]
+    },
+    {
+      "id":"Q_B-Satz Sachkonten Akt",
+      "parents":[
+        "Q_B-C-Satz Sachkonten Akt"
+      ]
+    },
+    {
+      "id":"Q_C-Satz Sachkonten Akt",
+      "parents":[
+        "Q_B-C-Satz Sachkonten Akt"
+      ]
+    },
+    {
+      "id":"Q_B-Satz Sachkonten Hist",
+      "parents":[
+        "Q_B-C-Satz Sachkonten Hist"
+      ]
+    },
+    {
+      "id":"Q_C-Satz Sachkonten Hist",
+      "parents":[
+        "Q_B-C-Satz Sachkonten Hist"
+      ]
+    },
+    {
+      "id":"C9-11-17-18 Differenzermittlung PM Vorarbeit",
+      "parents":[
+        "C9-11-17-18 Differenzermittlung PM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Q_C-Satz BAP PM verteilt Vorvorarbeit",
+      "parents":[
+        "C9-11-17-18 Differenzermittlung PM Vorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"B-Satz Kunde Akt",
+      "parents":[
+        "B-Satz Basis Akt"
+      ]
+    },
+    {
+      "id":"B-Satz Adressen Akt",
+      "parents":[
+        "B-Satz Basis Akt"
+      ]
+    },
+    {
+      "id":"B-Satz Kunde Hist",
+      "parents":[
+        "B-Satz Basis Hist"
+      ]
+    },
+    {
+      "id":"B-Satz Adressen Hist",
+      "parents":[
+        "B-Satz Basis Hist"
+      ]
+    },
+    {
+      "id":"C-Satz5",
+      "parents":[
+        "Q_C-Satz BAP PM verteilt Vorvorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz4 Konten mit Zinsen",
+      "parents":[
+        "C-Satz5"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C12_13_17 Zinsen Struktursatz",
+      "parents":[
+        "C-Satz4 Konten mit Zinsen"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinssatz_-termin_-beträge seit VM mit Saldo ohne Umsätze",
+      "parents":[
+        "C-Satz4 Konten mit Zinsen"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinssatz_-termin_-beträge seit VM mit Umsätzen",
+      "parents":[
+        "C-Satz4 Konten mit Zinsen"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinssatz_-termin_-beträge bis VM",
+      "parents":[
+        "C-Satz4 Konten mit Zinsen"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Konten ohne Umsätze mit Saldo Zinstage",
+      "parents":[
+        "C12_13_17 Zinssatz_-termin_-beträge seit VM mit Saldo ohne Umsätze"
+      ]
+    },
+    {
+      "id":"Konten mit Umsätzen Zinstage",
+      "parents":[
+        "C12_13_17 Zinssatz_-termin_-beträge seit VM mit Umsätzen"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP bis VM",
+      "parents":[
+        "C12_13_17 Zinssatz_-termin_-beträge bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TS bis VM",
+      "parents":[
+        "C12_13_17 Zinssatz_-termin_-beträge bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TF bis VM",
+      "parents":[
+        "C12_13_17 Zinssatz_-termin_-beträge bis VM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Konten ohne Umsätze mit Saldo Vorarbeit",
+      "parents":[
+        "Konten ohne Umsätze mit Saldo Zinstage"
+      ]
+    },
+    {
+      "id":"Konten mit Umsätzen Vorarbeit",
+      "parents":[
+        "Konten mit Umsätzen Zinstage"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP Basis bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SP bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TS Basis bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TS Zusatz bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TF Basis bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TF bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_KK_DL Basis bis VM",
+      "parents":[
+
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Zinsen ab_bis, Zinsbasis",
+      "parents":[
+        "Konten mit Umsätzen Vorarbeit"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP Vorarbeit3 bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SP Basis bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TS Vorarbeit bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS Basis bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SparbriefG Zusatz bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS Zusatz bis VM"
+      ]
+    },
+    {
+      "id":"Sparbrief_G bankindividuell bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS Zusatz bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TF Vorarbeit bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TF Basis bis VM"
+      ]
+    },
+    {
+      "id":"C12 Zinsen-VAB_KK_DL bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_KK_DL Basis bis VM"
+      ]
+    },
+    {
+      "id":"C13 Zinsen-Abrechnung_KK_DL bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_KK_DL Basis bis VM"
+      ]
+    },
+    {
+      "id":"C17 Zinsen-Abgrenzung_KK_DL bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_KK_DL Basis bis VM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Zinsen bis",
+      "parents":[
+        "Zinsen ab_bis, Zinsbasis"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP Vorarbeit2 bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SP Vorarbeit3 bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TS Grunddaten bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TS Vorarbeit bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SparbriefG Zusatz Vorarbeit bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SparbriefG Zusatz bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_TF Grunddaten bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_TF Vorarbeit bis VM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Zinsen ab",
+      "parents":[
+        "Zinsen bis"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP Vorarbeit1 bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SP Vorarbeit2 bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SparbriefG Zusatz Grunddaten bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SparbriefG Zusatz Vorarbeit bis VM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Zinsen ab Vorarbeit",
+      "parents":[
+        "Zinsen ab"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP Grunddaten bis VM",
+      "parents":[
+        "C12_13_17 Zinsen_SP Vorarbeit1 bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_SP künftiger Staffelzins",
+      "parents":[
+        "C12_13_17 Zinsen_SP Vorarbeit1 bis VM"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Startsalden",
+      "parents":[
+        "Zinsen ab Vorarbeit"
+      ]
+    },
+    {
+      "id":"lfd. Saldoveränderung",
+      "parents":[
+        "Zinsen ab Vorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Konten Akt mit Umsätzen",
+      "parents":[
+        "Startsalden"
+      ]
+    },
+    {
+      "id":"Konten Akt mit Umsätzen",
+      "parents":[
+        "lfd. Saldoveränderung"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Einzelumsatzdaten",
+      "parents":[
+        "Konten Akt mit Umsätzen"
+      ]
+    },
+    {
+      "id":"C-Satz4 Akt mit Zins, Ultimo",
+      "parents":[
+        "Konten Akt mit Umsätzen"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Einzelumsatz_Basis",
+      "parents":[
+        "Einzelumsatzdaten"
+      ]
+    },
+    {
+      "id":"C-Satz4 Akt mit Zins",
+      "parents":[
+        "C-Satz4 Akt mit Zins, Ultimo"
+      ]
+    },
+    {
+      "id":"relevante Konten Ultimosaldo incl Berichtigung",
+      "parents":[
+        "C-Satz4 Akt mit Zins, Ultimo"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz3",
+      "parents":[
+        "C-Satz4 Akt mit Zins"
+      ]
+    },
+    {
+      "id":"C12_13 seit VM",
+      "parents":[
+        "C-Satz4 Akt mit Zins"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C12_13_SP seit VM",
+      "parents":[
+        "C12_13 seit VM"
+      ]
+    },
+    {
+      "id":"C12_13_TS seit VM",
+      "parents":[
+        "C12_13 seit VM",
+        "C12_13_17 Zinsen_TS Zusatz bis VM"
+      ]
+    },
+    {
+      "id":"C12_13_TF seit VM",
+      "parents":[
+        "C12_13 seit VM"
+      ]
+    },
+    {
+      "id":"C12_13_KK_DL seit VM",
+      "parents":[
+        "C12_13 seit VM"
+      ]
+    },
+    {
+      "id":"C-Satz2",
+      "parents":[
+        "C-Satz3"
+      ]
+    },
+    {
+      "id":"C21 - Kde",
+      "parents":[
+        "C-Satz3"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C12_13_TS Basis seit VM",
+      "parents":[
+        "C12_13_TS seit VM"
+      ]
+    },
+    {
+      "id":"C12 Zinsen-VAB_KK_DL seit VM",
+      "parents":[
+        "C12_13_KK_DL seit VM"
+      ]
+    },
+    {
+      "id":"C12_13_17 Zinsen_KK_DL bis VM",
+      "parents":[
+        "C12_13_KK_DL seit VM",
+        "C12_13_17 Zinssatz_-termin_-beträge bis VM",
+        "C12_13_17 Zinsen_KK_DL Basis bis VM"
+      ]
+    },
+    {
+      "id":"C21-01bis08-15 TAS - Kde Akt",
+      "parents":[
+        "C21 - Kde"
+      ]
+    },
+    {
+      "id":"C21-01bis08-15 TAS - Kde Hist",
+      "parents":[
+        "C21 - Kde"
+      ]
+    },
+    {
+      "id":"C21-03-06-07-15 Softfact Akt",
+      "parents":[
+        "C21 - Kde"
+      ]
+    },
+    {
+      "id":"C21-03-06-07-15 Softfact Hist",
+      "parents":[
+        "C21 - Kde"
+      ]
+    },
+    {
+      "id":"C-Satz1",
+      "parents":[
+        "C-Satz2"
+      ]
+    },
+    {
+      "id":"C21_24 - Kto",
+      "parents":[
+        "C-Satz2"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C21-01Treugeber-02-04bis08-15 TAS - Kto",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-02-03-04-07-10_24 TF Akt",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-02-03-04-07-10_24 TF Hist",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-02-03-04-07-10 TS Akt",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-02-03-04-07-10 TS Hist",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-08 KK Akt",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-08 KK Hist",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-10 KBS KK",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-10 KBS SparteKK",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-10_C24 SP Akt",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C21-10_C24 SP Hist",
+      "parents":[
+        "C21_24 - Kto"
+      ]
+    },
+    {
+      "id":"C-Satz Basis",
+      "parents":[
+        "C-Satz1"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz Basis ohne Doubletten",
+      "parents":[
+        "C-Satz Basis"
+      ]
+    },
+    {
+      "id":"C8_C10",
+      "parents":[
+        "C-Satz Basis"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz Basis PM_aufgelöst",
+      "parents":[
+        "C-Satz Basis ohne Doubletten"
+      ]
+    },
+    {
+      "id":"Einheiten identische Personen ohne PM",
+      "parents":[
+        "C-Satz Basis ohne Doubletten"
+      ]
+    },
+    {
+      "id":"C8 und C10 eingestellte Devisenkurse",
+      "parents":[
+        "C8_C10"
+      ]
+    },
+    {
+      "id":"C8 und C10 berechnete Umrechnungskurse",
+      "parents":[
+        "C8_C10"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Einheiten identische Personen ohne PM Akt",
+      "parents":[
+        "Einheiten identische Personen ohne PM"
+      ]
+    },
+    {
+      "id":"Einheiten identische Personen ohne PM Hist",
+      "parents":[
+        "Einheiten identische Personen ohne PM"
+      ]
+    },
+    {
+      "id":"C-Satz Basis TreugeberTAS_virtuell aufgelöst",
+      "parents":[
+        "C-Satz Basis PM_aufgelöst"
+      ]
+    },
+    {
+      "id":"Mitglieder in Personenmehrheiten",
+      "parents":[
+        "C-Satz Basis PM_aufgelöst"
+      ]
+    },
+    {
+      "id":"C8 und C10 eingestellte Devisenkurse Vorarbeit",
+      "parents":[
+        "C8 und C10 eingestellte Devisenkurse"
+      ]
+    },
+    {
+      "id":"C8 und C10 berechnete Umrechnungskurse Vorarbeit",
+      "parents":[
+        "C8 und C10 berechnete Umrechnungskurse"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Mitglieder in Personenmehrheiten Akt",
+      "parents":[
+        "Mitglieder in Personenmehrheiten"
+      ]
+    },
+    {
+      "id":"Mitglieder in Personenmehrheiten Hist",
+      "parents":[
+        "Mitglieder in Personenmehrheiten"
+      ]
+    },
+    {
+      "id":"C-Satz Basis TreugeberRolle9_aufgelöst",
+      "parents":[
+        "C-Satz Basis TreugeberTAS_virtuell aufgelöst"
+      ]
+    },
+    {
+      "id":"TreugeberinformationenTAS",
+      "parents":[
+        "C-Satz Basis TreugeberTAS_virtuell aufgelöst"
+      ]
+    },
+    {
+      "id":"Währungskonto-Gegenkonto",
+      "parents":[
+        "C8 und C10 berechnete Umrechnungskurse Vorarbeit"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C21-01-03Treuhänder TAS - Kde",
+      "parents":[
+        "TreugeberinformationenTAS"
+      ]
+    },
+    {
+      "id":"C-Satz Grunddaten Metakompensation",
+      "parents":[
+        "C-Satz Basis TreugeberRolle9_aufgelöst"
+      ]
+    },
+    {
+      "id":"TreugeberRolle9 Anzahl Miteigentümer",
+      "parents":[
+        "C-Satz Basis TreugeberRolle9_aufgelöst"
+      ]
+    },
+    {
+      "id":"Währungskonto",
+      "parents":[
+        "Währungskonto-Gegenkonto"
+      ]
+    },
+    {
+      "id":"Euro-Gegenkonten",
+      "parents":[
+        "Währungskonto-Gegenkonto"
+      ]
+    },
+    {
+      "id":"Währungskonto_Ausschluss GAB",
+      "parents":[
+        "Währungskonto-Gegenkonto"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Euro-Gegenkonten Akt",
+      "parents":[
+        "Euro-Gegenkonten"
+      ]
+    },
+    {
+      "id":"Euro-Gegenkonten Hist",
+      "parents":[
+        "Euro-Gegenkonten"
+      ]
+    },
+    {
+      "id":"C21-01-03Treuhänder TAS - Kto",
+      "parents":[
+        "C21-01-03Treuhänder TAS - Kde"
+      ]
+    },
+    {
+      "id":"TreugeberRolle",
+      "parents":[
+        "TreugeberRolle9 Anzahl Miteigentümer"
+      ]
+    },
+    {
+      "id":"B-Satz Anzahl Miteigentümer",
+      "parents":[
+        "TreugeberRolle9 Anzahl Miteigentümer"
+      ]
+    },
+    {
+      "id":"C-Satz Grunddaten",
+      "parents":[
+        "C-Satz Grunddaten Metakompensation"
+      ]
+    },
+    {
+      "id":"Währungskonto KK Akt",
+      "parents":[
+        "Währungskonto"
+      ]
+    },
+    {
+      "id":"Währungskonto DL Akt",
+      "parents":[
+        "Währungskonto"
+      ]
+    },
+    {
+      "id":"Währungskonto KK Hist",
+      "parents":[
+        "Währungskonto"
+      ]
+    },
+    {
+      "id":"Währungskonto DL Hist",
+      "parents":[
+        "Währungskonto"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C21-01bis08-15 TAS - Kto Hist",
+      "parents":[
+        "C21-01-03Treuhänder TAS - Kto"
+      ]
+    },
+    {
+      "id":"TreugeberRolle9 Akt",
+      "parents":[
+        "TreugeberRolle"
+      ]
+    },
+    {
+      "id":"TreugeberRolle9 Hist",
+      "parents":[
+        "TreugeberRolle"
+      ]
+    },
+    {
+      "id":"B-Satz Anzahl Miteigentümer Akt",
+      "parents":[
+        "B-Satz Anzahl Miteigentümer"
+      ]
+    },
+    {
+      "id":"B-Satz Anzahl Miteigentümer Hist",
+      "parents":[
+        "B-Satz Anzahl Miteigentümer"
+      ]
+    },
+    {
+      "id":"C-Satz Grunddaten_alle TKKto",
+      "parents":[
+        "C-Satz Grunddaten"
+      ]
+    },
+    {
+      "id":"ausgeschlossene Konten",
+      "parents":[
+        "C-Satz Grunddaten"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C21-01bis08-15 TAS - Kto Akt",
+      "parents":[
+        "C21-01-03Treuhänder TAS - Kto"
+      ]
+    },
+    {
+      "id":"Ermittlung TK-lfdNr Kontobezeichnung",
+      "parents":[
+        "C-Satz Grunddaten_alle TKKto"
+      ]
+    },
+    {
+      "id":"Endfällige DL zwischen Ultimo und Stichtagsangabe Akt",
+      "parents":[
+        "ausgeschlossene Konten"
+      ]
+    },
+    {
+      "id":"Euro-Gegenkonto_Ausschluss",
+      "parents":[
+        "ausgeschlossene Konten",
+        "Euro-Gegenkonten"
+      ]
+    },
+    {
+      "id":"Währungskonto_Ausschluss GAB",
+      "parents":[
+        "ausgeschlossene Konten"
+      ]
+    },
+    {
+      "id":"Meta-Konsorte Ausschluss",
+      "parents":[
+        "ausgeschlossene Konten"
+      ]
+    },
+    {
+      "id":"Param-Ausschlüsse_Akt",
+      "parents":[
+        "ausgeschlossene Konten"
+      ]
+    },
+    {
+      "id":"Param-Ausschlüsse_Hist",
+      "parents":[
+        "ausgeschlossene Konten"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"Konten_Meta-Kompensation",
+      "parents":[
+        "Meta-Konsorte Ausschluss"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz Grunddaten_alle incl. Gewinnsparen",
+      "parents":[
+        "Ermittlung TK-lfdNr Kontobezeichnung"
+      ]
+    },
+    {
+      "id":"KK-Konten in Komp-Gruppen Akt",
+      "parents":[
+        "Konten_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"KK-Konten in Komp-Gruppen Hist",
+      "parents":[
+        "Konten_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"DL-Konten in Komp-Gruppen Akt",
+      "parents":[
+        "Konten_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"DL-Konten in Komp-Gruppen Hist",
+      "parents":[
+        "Konten_Meta-Kompensation"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"C-Satz Grunddaten Akt",
+      "parents":[
+        "C-Satz Grunddaten_alle incl. Gewinnsparen"
+      ]
+    },
+    {
+      "id":"C-Satz Grunddaten Hist",
+      "parents":[
+        "C-Satz Grunddaten_alle incl. Gewinnsparen"
+      ]
+    },
+    {
+      "id":"Q_C-Satz Gewinnsparer Akt",
+      "parents":[
+        "C-Satz Grunddaten_alle incl. Gewinnsparen"
+      ]
+    },
+    {
+      "id":"Q_C-Satz Gewinnsparer Hist",
+      "parents":[
+        "C-Satz Grunddaten_alle incl. Gewinnsparen"
+      ]
+    }
+  ],
+  [
+    {
+      "id":"PNr_KGr_Meta-Kompensation",
+      "parents":[
+
+      ]
+    }
+  ],
+  [
+    {
+      "id":"PNr_KGr_Metakredite-KK Akt",
+      "parents":[
+        "PNr_KGr_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"PNr_KGr_Metakredite-KK Hist",
+      "parents":[
+        "PNr_KGr_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"PNr_KGr_Metakredite-DL Akt",
+      "parents":[
+        "PNr_KGr_Meta-Kompensation"
+      ]
+    },
+    {
+      "id":"PNr_KGr_Metakredite-DL Hist",
+      "parents":[
+        "PNr_KGr_Meta-Kompensation"
+      ]
+    }
+  ]
+]
